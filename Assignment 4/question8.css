@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #002741;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    z-index: 1000;
+}
+
+.container {
+    display: flex;
+    margin-top: 80px;
+    padding-top: 20px;
+}
+
+.sidebar {
+    width: 200px;
+    height: 400px;
+    background: #007d9c;
+    color: white;
+    padding: 10px;
+    overflow: auto;
+    border-right: 1px solid #ccc;
+}
+
+.content {
+    flex: 1;
+    padding: 0 20px;
+}
+
+article {
+    column-count:2;
+    column-gap: 40px;
+    text-align: justify;
+}
+
+article h2 {
+    column-span: all;
+}

@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.box {
+    background-color: #ffffff;
+    border: 4px solid #333;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.box1 {
+    border-color: red;
+    background-color: #ffe6e6;
+    
+}
+
+.box2 {
+    border-color: green;
+    padding: 40px;
+    background-color: #e6ffe6;
+    border-style: dashed;
+}
+
+.box3 {
+    border: none;                 
+    margin: 40px auto;            
+    background-color: #f7f7bd;    
+    padding: 20px;                
+    width: 90%;                   
+    max-width: 800px;             
+}
+
